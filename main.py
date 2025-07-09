@@ -8,6 +8,8 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain.chains import RetrievalQA
 from openai import RateLimitError, OpenAIError
+from langchain_community.vectorstores import FAISS
+
 import time
 
 # Load API Key
@@ -71,7 +73,7 @@ if st.session_state.rag_chain is None:
         # Create embeddings (with error handling)
         try:
             embeddings = OpenAIEmbeddings(model="text-embedding-ada-002")
-            vectorstore = Chroma.from_documents(split_docs, embedding=embeddings, collection_name="user_pdf")
+            vectorstore = FAISS.from_documents(split_docs, embedding=embeddings)
             retriever = vectorstore.as_retriever()
             st.session_state.rag_chain = RetrievalQA.from_chain_type(llm=llm, retriever=retriever)
             st.success("✅ PDF processed! Choose what to do next.")

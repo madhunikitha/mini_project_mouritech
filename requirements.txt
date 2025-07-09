@@ -7,3 +7,5 @@ langchain-community
 chromadb
 pypdf
 tiktoken
+faiss-cpu
+
