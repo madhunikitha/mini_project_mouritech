@@ -12,8 +12,22 @@ import time
 
 # Load API Key
 load_dotenv()
-api_key = os.getenv("OPENAI_API_KEY")
-os.environ["OPENAI_API_KEY"] = api_key
+
+api_key = None
+
+# ✅ First: Try from Streamlit Cloud (secrets)
+try:
+    api_key = st.secrets["OPENAI_API_KEY"]
+except Exception:
+    # ❌ If not found in cloud, try from local .env
+    api_key = os.getenv("OPENAI_API_KEY")
+
+# ✅ Use the key
+if not api_key:
+    st.error("❌ OPENAI_API_KEY not found in Streamlit secrets or .env")
+else:
+    os.environ["OPENAI_API_KEY"] = api_key
+    st.success("✅ API key loaded successfully.")
 
 # Debug API key loading (remove in production)
 if not api_key:
