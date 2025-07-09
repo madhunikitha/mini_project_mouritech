@@ -1,0 +1,20 @@
+# Virtual environment (Windows)
+myenv/
+
+# Chroma DB (vector store)
+chroma_db/
+
+# Environment variables
+.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code settings (optional)
+.vscode/
+
+# Windows system files
+Thumbs.db
+desktop.ini
