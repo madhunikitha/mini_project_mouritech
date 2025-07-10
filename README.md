@@ -115,5 +115,18 @@ For each quiz answer, the system:
 ### Output Screenshots
 <img width="1366" height="728" alt="image" src="https://github.com/user-attachments/assets/c13bc755-8469-4eb8-a159-15fbfe8f5fd2" />
 
+<img width="1366" height="728" alt="image" src="https://github.com/user-attachments/assets/bac4080e-dec9-4073-855d-b11968e9a604" />
+
+<img width="1366" height="728" alt="image" src="https://github.com/user-attachments/assets/35e408f8-5f81-4e1f-8f9c-b672f42924cc" />
+
+<img width="1366" height="728" alt="image" src="https://github.com/user-attachments/assets/5a4aa981-70da-453b-838e-4ab7f5f1a5e9" />
+
+<img width="1366" height="728" alt="image" src="https://github.com/user-attachments/assets/19471401-0132-4200-805e-0a4c4ded0116" />
+
+<img width="1366" height="728" alt="image" src="https://github.com/user-attachments/assets/a974a0ca-65a6-43e4-978d-474d9390d130" />
+
+<img width="1366" height="728" alt="image" src="https://github.com/user-attachments/assets/2cfe833e-b72b-4663-b0a1-aad380716cdb" />
+
+
 
 
