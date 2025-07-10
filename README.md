@@ -111,3 +111,9 @@ For each quiz answer, the system:
      - Ask a question  
      - Get a GPT-powered response using content from your uploaded material
 3. Use the **Restart** button to reset and start over
+
+### Output Screenshots
+<img width="1366" height="728" alt="image" src="https://github.com/user-attachments/assets/c13bc755-8469-4eb8-a159-15fbfe8f5fd2" />
+
+
+
