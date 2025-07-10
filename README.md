@@ -1,27 +1,27 @@
-# 📘 AI Learning Assistant
+# AI Learning Assistant
 
 An interactive **AI-powered educational assistant** built with **LangChain**, **OpenAI**, and **Streamlit**, designed to enhance learning from textbooks. This tool allows users to upload PDF study material and either:
 - Take a **quiz** auto-generated from the content, or
 - Ask **doubts/questions** about the material and receive intelligent responses.
   
-## 🚀 Features
+## Features
 
-### ✅ Upload and Learn
+### Upload and Learn
 - Upload any **textbook PDF** (academic, technical, etc.)
 - Text is parsed and indexed with vector embeddings for retrieval-based Q&A
 
-### 🧪 Quiz Mode
+### Quiz Mode
 - Generate topic-based questions dynamically
 - Submit answers and receive:
   - Contextual evaluation
   - Scoring (1-10 scale)
   - Feedback and improvement tips
 
-### ❓ Doubt Mode
+### Doubt Mode
 - Chat-based interface to ask questions related to the uploaded document
 - Powered by **OpenAI's GPT-3.5 Turbo** and **LangChain's RAG**
 
-### 💾 Session Persistence
+### Session Persistence
 - Retains session state for smooth user experience across steps
 - Option to reset/restart session
 
@@ -37,7 +37,7 @@ An interactive **AI-powered educational assistant** built with **LangChain**, **
 ├── README.md              # Project overview
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component       | Technology Used                   |
 |----------------|------------------------------------|
@@ -50,7 +50,7 @@ An interactive **AI-powered educational assistant** built with **LangChain**, **
 | Environment     | Python 3.10+                      |
 
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 ### 1. Clone the Repository
 git clone https://github.com/madhunikitha/mini_project_mouritech
 cd mini_project_mouritech
