@@ -70,22 +70,22 @@ Option B: Local Environment
 ### 5. Run the App
 streamlit run main.py
 
-## 🎯 Use Cases
+## Use Cases
 
-- 🎓 **Academia**: Help students self-test on educational material
-- 📚 **Independent Learning**: Self-assessment tool for personal development
-- 🧑‍🏫 **Tutoring**: AI-powered assistant for exam prep and subject clarification
+-  **Academia**: Help students self-test on educational material
+-  **Independent Learning**: Self-assessment tool for personal development
+-  **Tutoring**: AI-powered assistant for exam prep and subject clarification
 
-## 🧠 Behind the Scenes
+##  Behind the Scenes
 
-### 🔄 Retrieval Augmented Generation (RAG)
+### Retrieval Augmented Generation (RAG)
 
 - Uploaded PDFs are **split into chunks**
 - Embeddings are generated using **`text-embedding-ada-002`**
 - Chunks are **indexed using FAISS**
 - During interactions, the app **retrieves the most relevant chunks** before invoking GPT
 
-### 📝 Evaluation System
+### Evaluation System
 
 For each quiz answer, the system:
 
@@ -98,16 +98,16 @@ For each quiz answer, the system:
 - Provides **specific feedback and suggestions** for improvement
 
 
-## 📌 Sample Workflow
+## Sample Workflow
 
 1. **Upload** a textbook or study material (PDF)
 2. Choose a mode:
-   - 🧪 **Quiz**:  
+   -  **Quiz**:  
      - Enter a topic  
      - Get 3 AI-generated questions  
      - Submit answers  
      - Receive contextual evaluation with scores and feedback
-   - ❓ **Doubt**:  
+   -  **Doubt**:  
      - Ask a question  
      - Get a GPT-powered response using content from your uploaded material
-3. Use the 🔄 **Restart** button to reset and start over
+3. Use the **Restart** button to reset and start over
